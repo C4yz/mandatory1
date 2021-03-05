@@ -20,6 +20,7 @@ fi
 # Downloads package to folder
 wget -O /usr/local/src/$package $URL
 
+# Install the package
 echo $installtype
 if [ $installtype == "source" ]
 then
