@@ -33,17 +33,17 @@ if [ $installtype == "dpkg" ]
 then
 	#checking dependensies
 	echo "debbing this bitch"
-	dpkg-deb -I /usr/local/src/$package | grep Depends | tr -d "Depends: " | tr "," "\n" | awk -F '\(' '{print $1}'  > depends.txt
-
+	dpkg-deb -I /usr/local/src/ncat.deb | grep Depends | sed 's/Depends: //' | tr "," "\n" | awk -F '\(' '{print $1}' > depends.txt	
+	rm dependsinstalled.txt
 	for line in $(cat depends.txt); do
-		dpkg -l | grep $line >> dependsinstalled.txt
+		dpkg -l | grep $line | awk '{print $2}' | cut -d ':' -f 1 >> dependsinstalled.txt
 	done
-	for linje in $(diff depends.txt dependsinstalled.txt | sed -n -e 's/^< //p'); do
+	for linje in $(diff depends.txt dependsinstalled.txt | awk '{print $2}'); do
 		echo "You seem to be missing dependency $linje do you want to install it Y/N?"
 		read answer
-		if [ $answer == "Y" || "y" || "yes" ]
+		if [[ $answer == "Y" || "y" || "yes" ]]
 		then
-			apt install $linje
+			sudo apt install -y $linje
 		else
 		       echo "ABANDON SHIP!"
 	       		exit
