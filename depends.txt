@@ -1,4 +1,4 @@
-libc6
-liblua5.3-0
-libca0.8
-libl1.1
+ libc6 
+ liblua5.3-0
+ libpcap0.8 
+ libssl1.1 

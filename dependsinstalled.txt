@@ -1,3 +1,6 @@
 libc6
 libc6-dbg
 libc6-dev
+liblua5.3-0
+libpcap0.8
+libssl1.1

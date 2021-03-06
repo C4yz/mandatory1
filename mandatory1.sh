@@ -53,7 +53,7 @@ then
 	echo "LOL"	
 	sudo dpkg --install /usr/local/src/$package
 	pckName=$(dpkg-deb -I /usr/local/src/$package | grep 'Package' | tr ":" "\n" | sed -n 2p)
-	if dpkg-l $pckName >/dev/null && test ! -z $pckName 
+	if dpkg -l $pckName >/dev/null && test ! -z $pckName 
 	then 
 		echo "Grats man installed correctly"
 	else
