@@ -1,0 +1,17 @@
+lib6
+ii  libc6:amd64                                2.31-0ubuntu9.2                     amd64        GNU C Library: Shared libraries
+ii  libc6-dbg:amd64                            2.31-0ubuntu9.2                     amd64        GNU C Library: detached debugging symbols
+ii  libc6-dev:amd64                            2.31-0ubuntu9.2                     amd64        GNU C Library: Development Libraries and Header Files
+ii  liblua5.3-0:amd64                          5.3.3-1.1ubuntu2                    amd64        Shared library for the Lua interpreter version 5.3
+ii  libc6:amd64                                2.31-0ubuntu9.2                     amd64        GNU C Library: Shared libraries
+ii  libc6-dbg:amd64                            2.31-0ubuntu9.2                     amd64        GNU C Library: detached debugging symbols
+ii  libc6-dev:amd64                            2.31-0ubuntu9.2                     amd64        GNU C Library: Development Libraries and Header Files
+ii  liblua5.3-0:amd64                          5.3.3-1.1ubuntu2                    amd64        Shared library for the Lua interpreter version 5.3
+ii  libc6:amd64                                2.31-0ubuntu9.2                     amd64        GNU C Library: Shared libraries
+ii  libc6-dbg:amd64                            2.31-0ubuntu9.2                     amd64        GNU C Library: detached debugging symbols
+ii  libc6-dev:amd64                            2.31-0ubuntu9.2                     amd64        GNU C Library: Development Libraries and Header Files
+ii  liblua5.3-0:amd64                          5.3.3-1.1ubuntu2                    amd64        Shared library for the Lua interpreter version 5.3
+ii  libc6:amd64                                2.31-0ubuntu9.2                     amd64        GNU C Library: Shared libraries
+ii  libc6-dbg:amd64                            2.31-0ubuntu9.2                     amd64        GNU C Library: detached debugging symbols
+ii  libc6-dev:amd64                            2.31-0ubuntu9.2                     amd64        GNU C Library: Development Libraries and Header Files
+ii  liblua5.3-0:amd64                          5.3.3-1.1ubuntu2                    amd64        Shared library for the Lua interpreter version 5.3

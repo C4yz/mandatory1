@@ -1,0 +1,4 @@
+libc6
+liblua5.3-0
+libca0.8
+libl1.1
